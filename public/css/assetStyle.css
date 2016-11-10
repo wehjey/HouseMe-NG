@@ -1,0 +1,178 @@
+body{
+    background:#f2f2f2;
+    font-family: 'Open Sans','Roboto','Lato', sans-serif;
+}
+#searchBox{
+    width:65%;
+    padding:5px;
+    border-radius: 5px;
+    border: 1px solid #aeaeae;
+}
+#catDD{
+    padding:5px;
+    border-radius: 5px;
+}
+#searchBtn{
+    padding:5px 8px;
+    background:#002078;
+    border:0px;
+    color:#fff;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+#searchBtn:hover{
+    border:1px solid #002078;
+    color:#002078;
+    background:#fff;
+}
+#topbar{
+    height:5px; width:100%; background:#002078
+}
+#authNav,#authNav > a{
+    color:#002078;
+    padding:5px;
+}
+.viewBtn{
+    color:white;
+    background:#ff6a00;
+    padding:5px 10px;
+}
+.viewBtn:hover{
+    text-decoration:none;
+    border:1px solid #002078;
+    color:#002078;
+    background:#fff;
+}
+.underline{
+    height:2px;
+    width:100%;
+    background-color:#899c98;
+    margin:0px 0px 13px 0px;
+}
+.bidBTN{
+    margin-bottom:5px;
+    color:white;
+    background:#eb9316;
+    padding:5px;
+    border:0px;
+}
+.bidBTN:hover{
+    text-decoration:none;
+    border:1px solid #eb9316;
+    color:#eb9316;
+    background:#fff;
+}
+.viewBTN{
+     /*margin-top:15px;*/
+     color:white;
+     background:#449d44;
+     padding:5px;
+     border:0px;
+ }
+.viewBTN:hover{
+    text-decoration:none;
+    border:1px solid #449d44;
+    color:#449d44;
+    background:#fff;
+}
+#footer{
+    height:auto;
+    width:100%;
+    background-color:#333;
+    margin-top:20px;
+    padding: 10px 5px 30px 5px
+}
+.bidItem{
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    height: auto;
+    padding: 10px;
+}
+
+.bidItem img{
+    border-radius: 5px;
+}
+
+.bidItem hr{
+    margin: 5px;
+}
+
+.bidItem > div hr{
+    margin: 10px 0px;
+}
+.thumbnail div hr{
+    margin: 10px 0px;
+}
+
+.thumbnail hr{
+    margin: 5px;
+}
+
+.thumbnail img{
+    border-radius: 5px;
+}
+
+#social a i{
+    font-size: 25px;
+    color: white;
+    margin-right: 3px;
+}
+
+#bidItemDiv .row .col-sm-3 > center{
+    height: auto;
+    padding: 5px;
+}
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.shadow{
+    -webkit-box-shadow: 0px 0px 31px -1px rgba(117,117,117,1);
+    -moz-box-shadow: 0px 0px 31px -1px rgba(117,117,117,1);
+    box-shadow: 0px 0px 31px -1px rgba(117,117,117,1);
+}
+
+#info > i{
+
+    padding: 6px;
+    background:#444;
+    border-radius: 15px;
+
+}
+
+.thumbnail
+{
+    padding-bottom: 10px;
+}
+
+.carousel {
+    margin-bottom: 0;
+    padding: 0 30px 0px 30px;
+    height: auto;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+    left: -6px;
+}
+.carousel-control.right {
+    right: -6px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+    background: #c0c0c0;
+}
+.carousel-indicators .active {
+    background: #333333;
+}

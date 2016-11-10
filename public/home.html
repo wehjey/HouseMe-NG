@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="css/bootstrap2.css" rel="stylesheet"/>
+    <link href="css/assetStyle.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+
+
+<div style="background:white; z-index: 10000" data-spy="affix" data-offset-top="100">
+    <div id="topbar"></div>
+    <div class="container" style="background:#fff; padding:10px 0px">
+
+        <div class="row">
+
+            <div class="col-md-3" style="margin-bottom:5px">
+                <img src="images/rosabonlogo.png" />
+            </div>
+
+            <div class="col-md-6" style="margin-bottom:5px">
+
+                <center>
+                    <div>
+                        <input id="searchBox" type="text" placeholder="e.g example item" style=""/>
+                        <select id="catDD">
+                            <option>-Category-</option>
+                        </select>
+                        <button id="searchBtn" type="submit"><i class="fa fa-search"></i>&nbsp;Search</button>
+
+                    </div>
+                </center>
+
+
+            </div>
+
+            <div class="col-md-3" style="margin-bottom:5px">
+
+                <nav id="authNav">
+                    <i class="fa fa-user" style="font-size:20px"></i>&nbsp;
+                    <a href="" data-toggle="modal" data-target="#loginModal"> LOGIN</a>
+                    or
+                    <a href="" data-toggle="modal" data-target="#registerModal"> REGISTER</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<br />
+
+<div class="container">
+
+    <div style="background:white; padding:0px 20px">
+
+        <span style="float:left;padding:7px">FEATURED CATEGORIES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span>
+
+        <div style="float: left">
+            <ul class="nav nav-pills">
+                <li></li>
+                <li  role="presentation"><a href="#">Category 1</a></li>
+                <li role="presentation"><a href="#">Category 2</a></li>
+                <li role="presentation"><a href="#">Category 3</a></li>
+                <li role="presentation"><a href="#">Category 4</a></li>
+                <li role="presentation"><a href="#">Category 5</a></li>
+            </ul>
+        </div>
+
+
+        <div class="clearfix"></div>
+
+    </div>
+
+    <br />
+
+    <div class="row">
+
+        <div class="col-md-8" style="padding-right:5px">
+
+
+            <img src="images/IPHONE.png" class="img-responsive" /><!-- width 760px; height:300px  -->
+
+
+        </div>
+
+        <div class="col-md-4" >
+
+            <div style="margin-bottom:10px">
+                <img src="images/zero3.jpg" class="img-responsive" /><!-- width 385px height:170px -->
+            </div>
+
+
+            <div>
+                <img src="images/zero4.jpg" class="img-responsive" />   <!-- image with >>> width 385px  height:14s0px-->
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <br />
+
+
+
+
+    <div style="background:white; padding:10px 20px">
+
+        <div id="bidItemDiv" style="height:auto;">
+
+            <span style="font-size:15px;background:#899c98;color:white;padding:3px">+ TOP DEALS</span>&nbsp;&nbsp;&nbsp;
+            <!--  <a href="#" class="viewBtn">view</a> -->
+
+            <div class="underline"></div>
+
+
+            <div id="" class="row">
+
+                <div class="col-md-3" style="margin-bottom: 5px">
+
+
+
+                    <div class="bidItem">
+                        <center>
+                            <img src="{{ asset('images/jjk.jpg') }}" class="img-responsive" style=""  />
+                        </center>
+                        <hr/>
+
+
+                        <div style="word-wrap:hyphenate;margin-left: 10px">
+
+                            <b><text>Tempered Glass Cooker</text></b><!--Item name-->
+                            <br />
+                            <b>Start Price:</b> <text>N 5,000</text>
+
+                            <br />
+                            <b>Current Bid:</b> <text>N 5,200</text>
+                            <br />
+                            <b>Deadline:</b><text>21/03/2017</text>
+
+                            <hr/>
+
+                            <div class="row" style="padding: 0px">
+                                <div class="col-sm-6" style="border-right: 1px solid #f2f2f2">
+                                    <center>
+                                        <a href="#" class="bidBTN form-control " >Place Bid</a>
+                                    </center>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <center>
+                                        <a href="#" class="viewBTN form-control " >View</a>
+                                    </center>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="col-md-3" style="margin-bottom: 5px">
+
+
+
+                    <div class="bidItem">
+                        <center>
+                            <img src="{{ asset('images/jjk.jpg') }}" class="img-responsive" style=""  />
+                        </center>
+                        <hr/>
+
+
+                        <div style="word-wrap:hyphenate;margin-left: 10px">
+
+                            <b><text>Tempered Glass Cooker</text></b><!--Item name-->
+                            <br />
+                            <b>Start Price:</b> <text>N 5,000</text>
+
+                            <br />
+                            <b>Current Bid:</b> <text>N 5,200</text>
+                            <br />
+                            <b>Deadline:</b><text>21/03/2017</text>
+
+                            <hr/>
+
+                            <div class="row" style="padding: 0px">
+                                <div class="col-sm-6" style="border-right: 1px solid #f2f2f2">
+                                    <center>
+                                        <a href="#" class="bidBTN form-control " >Place Bid</a>
+                                    </center>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <center>
+                                        <a href="#" class="viewBTN form-control " >View</a>
+                                    </center>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="col-md-3" style="margin-bottom: 5px">
+
+
+
+                    <div class="bidItem">
+                        <center>
+                            <img src="{{ asset('images/jjk.jpg') }}" class="img-responsive" style=""  />
+                        </center>
+                        <hr/>
+
+
+                        <div style="word-wrap:hyphenate;margin-left: 10px">
+
+                            <b><text>Tempered Glass Cooker</text></b><!--Item name-->
+                            <br />
+                            <b>Start Price:</b> <text>N 5,000</text>
+
+                            <br />
+                            <b>Current Bid:</b> <text>N 5,200</text>
+                            <br />
+                            <b>Deadline:</b><text>21/03/2017</text>
+
+                            <hr/>
+
+                            <div class="row" style="padding: 0px">
+                                <div class="col-sm-6" style="border-right: 1px solid #f2f2f2">
+                                    <center>
+                                        <a href="#" class="bidBTN form-control " >Place Bid</a>
+                                    </center>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <center>
+                                        <a href="#" class="viewBTN form-control " >View</a>
+                                    </center>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="col-md-3" style="margin-bottom: 5px">
+
+
+
+                    <div class="bidItem">
+                        <center>
+                            <img src="{{ asset('images/jjk.jpg') }}" class="img-responsive" style=""  />
+                        </center>
+                        <hr/>
+
+
+                        <div style="word-wrap:hyphenate;margin-left: 10px">
+
+                            <b><text>Tempered Glass Cooker</text></b><!--Item name-->
+                            <br />
+                            <b>Start Price:</b> <text>N 5,000</text>
+
+                            <br />
+                            <b>Current Bid:</b> <text>N 5,200</text>
+                            <br />
+                            <b>Deadline:</b><text>21/03/2017</text>
+
+                            <hr/>
+
+                            <div class="row" style="padding: 0px">
+                                <div class="col-sm-6" style="border-right: 1px solid #f2f2f2">
+                                    <center>
+                                        <a href="#" class="bidBTN form-control " >Place Bid</a>
+                                    </center>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <center>
+                                        <a href="#" class="viewBTN form-control " >View</a>
+                                    </center>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+            <hr />
+
+            <div id="" class="row">
+
+                <div class="col-sm-3" style="margin-bottom: 5px">
+
+
+
+                    <div class="bidItem">
+                        <center>
+                            <img src="{{ asset('images/jjk.jpg') }}" class="img-responsive" style=""  />
+                        </center>
+                        <hr/>
+
+
+                        <div style="word-wrap:hyphenate;margin-left: 10px">
+
+                            <b><text>Tempered Glass Cooker</text></b><!--Item name-->
+                            <br />
+                            <b>Start Price:</b> <text>N 5,000</text>
+
+                            <br />
+                            <b>Current Bid:</b> <text>N 5,200</text>
+                            <br />
+                            <b>Deadline:</b><text>21/03/2017</text>
+
+                            <hr/>
+
+                            <div class="row" style="padding: 0px">
+                                <div class="col-sm-6" style="border-right: 1px solid #f2f2f2">
+                                    <center>
+                                        <a href="#" class="bidBTN form-control " >Place Bid</a>
+                                    </center>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <center>
+                                        <a href="#" class="viewBTN form-control " >View</a>
+                                    </center>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="col-sm-3" style="margin-bottom: 5px">
+
+
+
+                    <div class="bidItem">
+                        <center>
+                            <img src="{{ asset('images/jjk.jpg') }}" class="img-responsive" style=""  />
+                        </center>
+                        <hr/>
+
+
+                        <div style="word-wrap:hyphenate;margin-left: 10px">
+
+                            <b><text>Tempered Glass Cooker</text></b><!--Item name-->
+                            <br />
+                            <b>Start Price:</b> <text>N 5,000</text>
+
+                            <br />
+                            <b>Current Bid:</b> <text>N 5,200</text>
+                            <br />
+                            <b>Deadline:</b><text>21/03/2017</text>
+
+                            <hr/>
+
+                            <div class="row" style="padding: 0px">
+                                <div class="col-sm-6" style="border-right: 1px solid #f2f2f2">
+                                    <center>
+                                        <a href="#" class="bidBTN form-control " >Place Bid</a>
+                                    </center>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <center>
+                                        <a href="#" class="viewBTN form-control " >View</a>
+                                    </center>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="col-sm-3" style="margin-bottom: 5px">
+
+
+
+                    <div class="bidItem">
+                        <center>
+                            <img src="{{ asset('images/jjk.jpg') }}" class="img-responsive" style=""  />
+                        </center>
+                        <hr/>
+
+
+                        <div style="word-wrap:hyphenate;margin-left: 10px">
+
+                            <b><text>Tempered Glass Cooker</text></b><!--Item name-->
+                            <br />
+                            <b>Start Price:</b> <text>N 5,000</text>
+
+                            <br />
+                            <b>Current Bid:</b> <text>N 5,200</text>
+                            <br />
+                            <b>Deadline:</b><text>21/03/2017</text>
+
+                            <hr/>
+
+                            <div class="row" style="padding: 0px">
+                                <div class="col-sm-6" style="border-right: 1px solid #f2f2f2">
+                                    <center>
+                                        <a href="#" class="bidBTN form-control " >Place Bid</a>
+                                    </center>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <center>
+                                        <a href="#" class="viewBTN form-control " >View</a>
+                                    </center>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="col-sm-3" style="margin-bottom: 5px">
+
+
+
+                    <div class="bidItem">
+                        <center>
+                            <img src="{{ asset('images/jjk.jpg') }}" class="img-responsive" style=""  />
+                        </center>
+                        <hr/>
+
+
+                        <div style="word-wrap:hyphenate;margin-left: 10px">
+
+                            <b><text>Tempered Glass Cooker</text></b><!--Item name-->
+                            <br />
+                            <b>Start Price:</b> <text>N 5,000</text>
+
+                            <br />
+                            <b>Current Bid:</b> <text>N 5,200</text>
+                            <br />
+                            <b>Deadline:</b><text>21/03/2017</text>
+
+                            <hr/>
+
+                            <div class="row" style="padding: 0px">
+                                <div class="col-sm-6" style="border-right: 1px solid #f2f2f2">
+                                    <center>
+                                        <a href="#" class="bidBTN form-control " >Place Bid</a>
+                                    </center>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <center>
+                                        <a href="#" class="viewBTN form-control " >View</a>
+                                    </center>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- LOGIN MODAL -->
+
+    <div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="loginModalLbl" style="z-index: 10001">
+
+        <div class="modal-dialog" role="document" style="">
+
+            <div class="modal-content" >
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <h3 class="modal-title" id="loginModalLbl" style="color:#002078">LOGIN</h3>
+                </div>
+
+                <div class="modal-body"><!-- LOGIN FORM -->
+
+
+
+                    <form>
+                        <div class="form-horizontal">
+
+                            <label class="control-label">Username or Email</label>
+                            <input id="usernameTxtbox" type="text" class="form-control" placeholder="username or email" />
+
+                            <label class="control-label">Password</label>
+                            <input id="passwordTxtbox" type="text" class="form-control" placeholder="password" />
+                            <br />
+                            <input type="submit" class="btn btn-success" value="Start Bidding" style="width:100%" />
+                            <a href="#">Forgot Password?</a><br />
+                            <!-- <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#registerModal">Don't have an account? Click here to sign up</a>-->
+
+
+                        </div>
+                    </form>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- END LOGIN MODAL -->
+
+    <!-- register modal -->
+
+
+    <div id="registerModal" class="modal2 fade" tabindex="-1" role="dialog" aria-labelledby="regModalLbl" style="z-index: 10001">
+
+        <div class="modal-dialog" role="document" >
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <h3 class="modal-title" id="regModalLbl" style="color:#002078">REGISTER TO START BIDDING!!!</h3>
+                </div>
+
+                <div class="modal-body">
+                    <!-- REGISTER FORM -->
+
+                    <form>
+                        <div class="form-horizontal">
+
+                            <label class="control-label">Fullname</label>
+                            <input id="fullnameTxtbox" type="text" class="form-control" placeholder="fullname" />
+
+                            <label class="control-label">Email</label>
+                            <input id="emailTxtbox" type="email" class="form-control" placeholder="email" />
+
+                            <label class="control-label">Phone number</label>
+                            <input id="phoneTxtbox" type="number" class="form-control" placeholder="080xxxxxxxx" />
+
+                            <label class="control-label">Password</label>
+                            <input id="passwordRegTxtbox" type="password" class="form-control" placeholder="password" />
+
+                            <label class="control-label">Confirm Password</label>
+                            <input id="confirmPasswordTxtbox" type="password" class="form-control" placeholder="password" />
+                            <br />
+
+                            <input type="submit" class="btn btn-success" value="Register" style="width:100%" />
+
+                            <!--<a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Already have an account? Click here to sign in</a>-->
+
+
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- end register modal -->
+
+
+
+</div>
+
+
+<footer id="footer">
+
+</footer>
+
+
+<script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+
+</body>
+
+</html>
