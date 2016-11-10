@@ -1,1 +1,1 @@
-{"version":3,"sources":["mystyle.css"],"names":[],"mappings":"AAAA;AACA;AACA","file":"app.css","sourcesContent":["body{\r\n    margin: 104px;\r\n}"]}
+{"version":3,"sources":["mystyle.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA","file":"app.css","sourcesContent":["body{\r\n    margin: 104px;\r\n    padding: 6px;\r\n}"]}
